@@ -8,7 +8,7 @@ import ProfileContainer from '@/components/containers/ProfileContainer'
 
 function Page() {
   return (
-    <div className='container mx-auto p-5'>
+    <div className='container mx-auto p-2 md:p-5'>
       <div className='grid-container'>
         <div className='Activities flex flex-col gap-4'>
           <Stack />
