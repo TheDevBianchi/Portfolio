@@ -56,7 +56,7 @@ function Profile() {
       </div>
       <div className='flex flex-wrap gap-4 w-full'>
         <Button src='/telegram.svg' text={'Telegram Me'} link='https://t.me/+584127113895' />
-        <Button src='/whatsapp.svg' text={'Telegram Me'} link='https://api.whatsapp.com/send/?phone=584127113895&text&type=phone_number&app_absent=0' />
+        <Button src='/whatsapp.svg' text={'Whatsapp Me'} link='https://api.whatsapp.com/send/?phone=584127113895&text&type=phone_number&app_absent=0' />
       </div>
     </Container>
   )
