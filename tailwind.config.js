@@ -16,6 +16,17 @@ module.exports = {
         title: '#E6E6E6',
         span: '#CCCCCC',
       },
+      animation: {
+        'neon-border': 'neonBorder 3s linear infinite',
+      },
+      keyframes: {
+        neonBorder: {
+          '0%, 100%': { borderColor: '#a290fc' },
+          '25%': { borderColor: '#efeefe' },
+          '50%': { borderColor: '#a290fc' },
+          '75%': { borderColor: '#7DF9FF' },
+        },
+      },
     },
   },
   plugins: [],

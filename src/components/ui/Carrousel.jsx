@@ -2,9 +2,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
 import Image from 'next/image'
-import Link from 'next/link';
+import Link from 'next/link'
 
-import 'swiper/css';
+import 'swiper/css'
 
 function Carrousel() {
   return (
@@ -18,31 +18,59 @@ function Carrousel() {
         }}
         loop={true}
         modules={[Autoplay]}
-        className='mySwiper mb-4'
-      >
+        className='mySwiper mb-4'>
         <SwiperSlide className='overflow-hidden'>
           <div className='flex justify-center items-center rounded-xl overflow-hidden'>
-            <Image src='/plomerosdeleste.webp' width={500} height={300} alt='Work 1' />
+            <Image
+              src='/plomerosdeleste.webp'
+              width={500}
+              height={300}
+              alt='Work 0'
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide className='overflow-hidden'>
           <div className='flex justify-center items-center rounded-xl overflow-hidden'>
-            <Image src='/hotelcayena.webp' width={500} height={300} alt='Work 2' />
+            <Image
+              src='/machupicchu.png'
+              width={500}
+              height={300}
+              alt='Work 1'
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide className='overflow-hidden'>
           <div className='flex justify-center items-center rounded-xl overflow-hidden'>
-            <Image src='/rifasaltagamausa.webp' width={500} height={300} alt='Work 3' />
+            <Image
+              src='/hotelcayena.webp'
+              width={500}
+              height={300}
+              alt='Work 2'
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide className='overflow-hidden'>
           <div className='flex justify-center items-center rounded-xl overflow-hidden'>
-            <Image src='/habitacom.webp' width={500} height={300} alt='Work 4' />
+            <Image
+              src='/rifasaltagamausa.webp'
+              width={500}
+              height={300}
+              alt='Work 3'
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='overflow-hidden'>
+          <div className='flex justify-center items-center rounded-xl overflow-hidden'>
+            <Image
+              src='/habitacom.webp'
+              width={500}
+              height={300}
+              alt='Work 4'
+            />
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className='absolute inset-0 z-10  flex justify-center items-center'>
-      </div>
+      <div className='absolute inset-0 z-10  flex justify-center items-center'></div>
     </div>
   )
 }

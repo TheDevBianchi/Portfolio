@@ -1,5 +1,23 @@
 const projects = [
   {
+    title: 'Machu Picchu En Bus',
+    duration: 'August 2024 - present',
+    technologies: ['React', 'NextJs', 'Stripe', 'MUI', 'Bootstrap',],
+    overview: 'Website specialized in reserving and purchasing tickets to take the tour to the various routes that Machu Picchu offers.',
+    features: [
+      'Stripe Implementation',
+      'Test with Jest',
+      'Admin Dashboard panel to create and update routes and packs',
+      'SEO Optimization',
+      'Responsive Design with MUI',
+      'Created with NextJs',
+      'Integrated Email Notifications.',
+    ],
+    achievements: ['Over 200 monthly visitors'],
+    link: 'https://machupicchuenbus.com',
+    imageSrc: '/machupicchu.png',
+  },
+  {
     title: 'Rifas Alta Gama USA',
     duration: 'apr. 2024 - may. 2024',
     technologies: ['Firebase', 'Next.js', 'Tailwind CSS'],
@@ -31,35 +49,6 @@ const projects = [
     achievements: ['Over 2 years in use, over 500 visitors per month'],
     link: 'https://hotelcayena.com',
     imageSrc: '/hotelcayena.webp',
-  },
-  {
-    title: 'Plomeros Del Este 24 Horas',
-    duration: 'march 2023 - april 2023',
-    technologies: ['React', 'Tailwind'],
-    overview: 'Modern landing page showcasing the company’s detailed services.',
-    features: [
-      'Responsive Design with Tailwind CSS.',
-      'Created with React',
-      'Integrated Email Notifications.',
-    ],
-    achievements: ['Over 100 monthly visitors'],
-    link: 'https://plomerosdeleste24horas.com',
-    imageSrc: '/plomerosdeleste.webp',
-  },
-  {
-    title: 'Habitacom',
-    duration: 'november 2021 - january 2022',
-    technologies: ['Figma', 'HTML', 'CSS', 'JS'],
-    overview:
-      'Renowned company responsible for managing condominiums throughout Caracas.',
-    features: [
-      'Responsive Design with Tailwind CSS.',
-      'Integrated Email Notifications.',
-      'High Quality Design',
-    ],
-    achievements: ['Over 200 monthly users', 'established since 2022'],
-    link: 'https://habitacom.net',
-    imageSrc: '/habitacom.webp',
   },
 ]
 

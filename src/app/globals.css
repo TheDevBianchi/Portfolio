@@ -111,3 +111,26 @@ html {
 .Activities { grid-area: Activities; }
 
 .Profile { grid-area: Profile; }
+
+@keyframes neon-border {
+  0% {
+    border-color: #a290fc;
+  }
+  25% {
+    border-color: #79ab42;
+  }
+  50% {
+    border-color: #eb662b;
+  }
+  75% {
+    border-color: #5e8030;
+  }
+  100% {
+    border-color: #a290fc;
+  }
+}
+
+.group-hover:animate-neon {
+  border: 2px solid #a290fc; /* Borde inicial */
+  animation: neon-border 3s linear infinite; /* Ciclo de 3s */
+}
